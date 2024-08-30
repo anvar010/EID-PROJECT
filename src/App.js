@@ -47,32 +47,32 @@ function App() {
     checkLang(i18n, lang);
   }, [lang]);
 
-  useEffect(() => {
-    // Disable right-click
-    const handleContextMenu = (e) => {
-      e.preventDefault();
-    };
+  // useEffect(() => {
+  //   // Disable right-click
+  //   const handleContextMenu = (e) => {
+  //     e.preventDefault();
+  //   };
 
     // Disable inspect element shortcuts
-    const handleKeyDown = (e) => {
-      if (
-        (e.ctrlKey && e.shiftKey && e.key === "I") || // Ctrl+Shift+I
-        (e.ctrlKey && e.shiftKey && e.key === "J") || // Ctrl+Shift+J
-        (e.ctrlKey && e.key === "U") || // Ctrl+U
-        e.key === "F12" // F12
-      ) {
-        e.preventDefault();
-      }
-    };
+    // const handleKeyDown = (e) => {
+    //   if (
+    //     (e.ctrlKey && e.shiftKey && e.key === "I") || // Ctrl+Shift+I
+    //     (e.ctrlKey && e.shiftKey && e.key === "J") || // Ctrl+Shift+J
+    //     (e.ctrlKey && e.key === "U") || // Ctrl+U
+    //     e.key === "F12" // F12
+    //   ) {
+    //     e.preventDefault();
+    //   }
+    // };
 
-    document.addEventListener("contextmenu", handleContextMenu);
-    document.addEventListener("keydown", handleKeyDown);
+    // document.addEventListener("contextmenu", handleContextMenu);
+    // document.addEventListener("keydown", handleKeyDown);
 
-    return () => {
-      document.removeEventListener("contextmenu", handleContextMenu);
-      document.removeEventListener("keydown", handleKeyDown);
-    };
-  }, []);
+  //   return () => {
+  //     document.removeEventListener("contextmenu", handleContextMenu);
+  //     document.removeEventListener("keydown", handleKeyDown);
+  //   };
+  // }, []);
 
   return (
     <>
