@@ -109,7 +109,7 @@ export default function GreetingSection() {
       yoyo: true,
     });
     gsap.to([".gsapPinkBallon"], {
-      y: -15,
+      y: -25,
       x: 10,
       duration: 1.5,
       rotate: -5,
@@ -185,10 +185,11 @@ export default function GreetingSection() {
                 </Parallax>
               </div>
             </div>
-            <div className="greetingElements03">
+            <div className="greetingElements10">
               <Parallax
-                translateY={[50, -100]}
-                translateX={[-50, 100]}
+                easing={"easeInOutCubic"}
+                translateY={[90, -90]}
+                translateX={[-30, -100]}
                 speed={20}
               >
                 <div className="gsapPinkBallon">
@@ -200,7 +201,7 @@ export default function GreetingSection() {
               <Parallax
                 easing={"easeInOutCubic"}
                 translateY={[50, -60]}
-                translateX={[-100, 80]}
+                translateX={[-100, 0]}
                 speed={20}
               >
                 <div className="gsapGreetingBalloon">

@@ -478,6 +478,26 @@
                     display: block;
                 }
             }
+            & .greetingElements10 {
+                position: absolute;
+                width: 8%;
+                bottom: 80%;
+                left: 20%;
+                @media screen and (max-width: 767px){  
+                    left: 10%;
+                }
+                @media screen and (max-width: 680px){
+                    top: 30%;
+                    left: 3%;
+                }
+                @media screen and (max-width: 480px){
+                    left: 6%;
+                }
+                @media screen and (max-width: 414px){
+                    width: 10%;
+                    left: 2%;
+                }
+            }
         }
         & .section-box {
             width: 100%;
