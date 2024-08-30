@@ -1,0 +1,53 @@
+{
+  "modal": {
+    "button_close": "Ok",
+    "audio_permission_error": "For better user experience enable the audio access"
+  },
+  "header": {
+    "language": "عربي"
+  },
+  "happiness": {
+    "description": "After a whole year of patiently, but eagerly waiting, Eid is finally here! Hands up everyone who missed the incense smells, the outfits and the delicious food? But first, let’s get Eid-ready with our outfits.",
+    "download-button": "Eid Identity"
+  },
+  "DownloadPopup": {
+    "ButtonText": "Download"
+  },
+  "moneySection": {
+    "buttondownload": "Discover our Eid Events",
+    "para": "After we emerge from our Eid coma, everyone’s excited about Eid outings. Where do we go? What adventures can await? Don’t worry, we have you covered, with Eid events."
+  },
+  "aud": {
+    "description": "Now that we’re ready in our new Eid outfits, it’s time for Takbeer or Eid prayers. Let’s revel in this beautiful moment. Later, let’s join the family gathering and exchange warm greetings with loved ones."
+  },
+  "rideSection": {
+    "para": "Next up, a treat for the eyes and a feast for the belly, it’s ‘Eid lunch’ with family. Although we might be missing a few due to food coma, there’s plenty of room for laughter and fun."
+  },
+  "Greetings": {
+    "name": "",
+    "messageLimit": "",
+    "preview": ""
+  },
+  "Preview": {
+    "edit": "",
+    "download": ""
+  },
+  "family": {
+    "description": "After that much-needed family time, it’s the kids’ favourite part, Eideyah! Time for them to engage in friendly banter as to who received the most."
+  },
+  "Buttontranslate": {
+    "title5": "Companies Decorations",
+    "title4": "Eid Events Booklet",
+    "title2": "Greeting Cards",
+    "title1": "Houses Decorations"
+  },
+  "footerMain": {
+    "btn": "Replay The Journey"
+  },
+  "greetingSection":{
+    "title":"Greeting Cards",
+    "para":"To share with your loved ones!",
+    "buttondownload":"Your Greeting",
+    "createbutton":"Create your own"
+  }
+}
